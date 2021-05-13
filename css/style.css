@@ -1,0 +1,37 @@
+body {
+    background-color: bisque;
+    font: normal 15pt Arial;
+}
+
+header {
+    color: whitesmoke;
+    text-align: center;
+}
+
+section {
+    width: 500px;
+    padding: 15px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.425);
+}
+
+#d1 {
+    margin: auto;
+    text-align: center;
+    width: fit-content;
+    font-weight: bold;
+}
+
+#foto {
+    margin: auto;
+    width: fit-content;
+}
+
+footer{
+    margin-top: 25px;
+    text-align: center;
+    font-style: italic;
+    color: white;
+}
