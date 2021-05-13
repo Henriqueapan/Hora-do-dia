@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hora do Dia</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="https://img.icons8.com/flat-round/64/000000/clock--v1.png"/>
 </head>
 <body onload = "horario()">
     <header>
         <h1>Hora do Dia</h1>
     </header>
+
     <section>
         <div id = "d1">
             
@@ -19,7 +21,13 @@
         <div id = "foto">
             <img id = "imagem" src = "fotodia.png" alt = "Foto">
         </div>
+        
+        <div id = "input">
+            <input id = "user-ctime" type = "time" onchange="input()">
+            <small>Selecione um horário</small>
+        </div>
     </section>
+
     <footer> Lorem ipsum</footer>
 
 </body>
